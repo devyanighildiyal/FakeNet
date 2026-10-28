@@ -88,6 +88,3 @@ Open the local URL that Streamlit prints (usually `http://localhost:8501`), uplo
 
 We thank Dr. Chandrasen Pandey for his mentorship, technical direction and guidance throughout this project.
 
-## License
-
-Released under the MIT License. See the `LICENSE` file for details.
