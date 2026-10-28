@@ -1,4 +1,6 @@
 streamlit
-tensorflow-cpu
+tensorflow==2.15.0
+tf-keras
+opencv-python-headless
 numpy
 Pillow
