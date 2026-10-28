@@ -49,10 +49,10 @@ It began as an academic **Minor Project** and covers the full pipeline: data pre
 
 ```mermaid
 flowchart LR
-    A[🎞️ Input Video / Image] --> B[👤 Face Detection & Frame Extraction]
-    B --> C[🔬 Spatial Features<br/>CNN backbone]
-    C --> D[⏱️ Temporal Modeling<br/>LSTM + Attention]
-    D --> E{✅ REAL / ❌ FAKE<br/>+ confidence}
+    A["Input Video / Image"] --> B["Face Detection and Frame Extraction"]
+    B --> C["Spatial Features (CNN backbone)"]
+    C --> D["Temporal Modeling (LSTM + Attention)"]
+    D --> E["REAL or FAKE + confidence score"]
 ```
 
 1. **Preprocessing:** frames are sampled at set intervals from video, faces are detected and cropped to $224 \times 224$ tensors, then normalized.
